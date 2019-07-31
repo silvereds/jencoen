@@ -4,7 +4,6 @@
   if(isset($_GET['disconnect'])){
       if(isset($_SESSION['id']))unset($_SESSION['id']);
   }
-  
   if(!isset($_SESSION['idDesArticles'])){
     
     $_SESSION['idDesArticles'] = array();
